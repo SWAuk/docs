@@ -1,3 +1,5 @@
+---
+---
 Components in Joomla, are like modules. We have our own module for everything we need. It is called `com_swa`
 
 The result of this component, will be found at either `/public_html/components/com_swa` or `/public_html/administrator/components/com_swa` depending on its usage. Administrator means it relates to the [[admin panel]]

@@ -1,3 +1,5 @@
+---
+---
 This plugin, allows for attaching code to the afterlogin event. This was used to check for a current agreement signed [[club_agreements]]. It is redundant but might be useful for future hooks.
 
 

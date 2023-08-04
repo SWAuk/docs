@@ -1,3 +1,5 @@
+---
+---
 As of 04/08/2023, these are the enabled joomla plugins. 
 ```mysql
 SELECT `name`,`type`,`folder` FROM swana_extensions

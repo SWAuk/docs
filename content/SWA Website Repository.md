@@ -1,3 +1,5 @@
+---
+---
 # SWA
 
 This repository contains a [Joomla component](https://docs.joomla.org/Component) that contains most of the logic for the [Student Windsurfing Association website](https://www.studentwindsurfing.co.uk/).
