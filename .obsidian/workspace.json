@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "fd76096020abae80",
+    "type": "split",
+    "children": [
+      {
+        "id": "1494dfbcbeb7b249",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6654db323d86513",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Installation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca58f1b09f6cacf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Creating Tickets.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32b4ea73d5b4e2d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "admin panel.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c80da9ea6ac38d57",
+    "type": "split",
+    "children": [
+      {
+        "id": "06c3afdb51084e40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c67dfd6f864be9c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0ea817acc4d23116",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#todo",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fb0350cb9eb10d75",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "70f56401ac161435",
+    "type": "split",
+    "children": [
+      {
+        "id": "42d3b4b1b47c7dec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cefae4139b3e13d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "admin panel.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4a1d9ae2973f99e2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "admin panel.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6f87c9cb6ae9dc62",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "92519e5df9706f9c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "admin panel.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "notion-like-tables:Create new loom": false
+    }
+  },
+  "active": "32b4ea73d5b4e2d5",
+  "lastOpenFiles": [
+    "garden/digital-garden/node_modules/react-icons/lib/esm/index.d.ts",
+    "garden/digital-garden/node_modules/react-icons/lib/cjs/index.d.ts",
+    "garden/digital-garden/node_modules/react-icons/index.d.ts",
+    "garden/digital-garden/node_modules/react-icons/bi/index.d.ts",
+    "garden/digital-garden/node_modules/react-icons/lib/esm/iconsManifest.d.ts",
+    "garden/digital-garden/node_modules/react-icons/lib/cjs/iconsManifest.d.ts",
+    "garden/digital-garden/node_modules/react-icons/lib/esm/iconContext.d.ts",
+    "garden/digital-garden/node_modules/react-icons/lib/cjs/iconContext.d.ts",
+    "garden/digital-garden/node_modules/react-icons/lib/esm/iconBase.d.ts",
+    "garden/digital-garden/node_modules/react-icons/lib/cjs/iconBase.d.ts",
+    "garden/digital-garden/node_modules/react-icons/all.d.ts",
+    "garden/digital-garden/node_modules/react-icons/README.md",
+    "garden/digital-garden/node_modules/typescript/SECURITY.md",
+    "garden/digital-garden/node_modules/core-js/CHANGELOG.md",
+    "garden/digital-garden/node_modules/remark-rehype/node_modules/mdast-util-to-hast/readme.md",
+    "garden/digital-garden/node_modules/remark-react/node_modules/web-namespaces/readme.md",
+    "garden/digital-garden/node_modules/command-line-usage/node_modules/array-back/README.md",
+    "garden/digital-garden/node_modules/through2/node_modules/xtend/README.md",
+    "garden/digital-garden/node_modules/vfile/node_modules/unist-util-stringify-position/readme.md",
+    "garden/digital-garden/node_modules/rehype-parse/node_modules/is-plain-obj/readme.md",
+    "garden/digital-garden/node_modules/remark-lint-maximum-heading-length/node_modules/mdast-util-to-string/readme.md",
+    "garden/digital-garden/node_modules/vfile-message/node_modules/unist-util-stringify-position/readme.md",
+    "garden/digital-garden/node_modules/eslint/README.md",
+    "garden/digital-garden/node_modules/jsnetworkx/LICENSE.md",
+    "garden/digital-garden/node_modules/cytoscape-d3-force/README.md",
+    "garden/digital-garden/node_modules/jsnetworkx/CHANGELOG.md",
+    "garden/digital-garden/node_modules/jsnetworkx/README.md",
+    "garden/digital-garden/node_modules/remark-preset-lint-markdown-style-guide/readme.md",
+    "garden/digital-garden/node_modules/next/dist/compiled/@babel/runtime/README.md",
+    "garden/digital-garden/node_modules/next/dist/compiled/react-refresh/README.md",
+    "garden/digital-garden/node_modules/next/dist/compiled/regenerator-runtime/README.md",
+    "garden/digital-garden/node_modules/next/dist/compiled/react-is/README.md",
+    "garden/digital-garden/node_modules/mdast-util-to-string/readme.md",
+    "garden/digital-garden/node_modules/remark-wiki-link/README.md",
+    "garden/digital-garden/node_modules/path/README.md",
+    "garden/digital-garden/node_modules/remark-frontmatter/readme.md",
+    "garden/digital-garden/node_modules/highlight.js/scss/school-book.png",
+    "garden/digital-garden/node_modules/highlight.js/scss/pojoaque.jpg",
+    "garden/digital-garden/node_modules/highlight.js/scss/brown-papersq.png",
+    "garden/digital-garden/node_modules/highlight.js/styles/school-book.png",
+    "garden/digital-garden/node_modules/highlight.js/styles/pojoaque.jpg",
+    "garden/digital-garden/node_modules/highlight.js/styles/brown-papersq.png",
+    "garden/digital-garden/node_modules/flatted/flatted.jpg",
+    "garden/digital-garden/public/images/Vault picker.png",
+    "garden/digital-garden/public/images/Pasted image.png",
+    "garden/digital-garden/public/images/Search.png",
+    "Untitled 1.canvas",
+    "Untitled.canvas"
+  ]
+}

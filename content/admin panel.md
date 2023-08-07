@@ -1,4 +1,0 @@
----
----
-[[Creating Events]]
-[[Creating Tickets]]
