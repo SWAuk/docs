@@ -8,7 +8,7 @@ LANDING_BUTTON = "Click to steal some👆"
 # (Optional) Site description on landing page
 LANDING_DESCRIPTION = "I have nothing but intelligence."
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
-LANDING_PAGE = "home"
+LANDING_PAGE = "overview"
 # (Optional) Site title on landing page
 LANDING_TITLE = "I love obsidian-zola! 💖"
 PYTHON_VERSION = "3.8"
@@ -21,7 +21,7 @@ SITE_TITLE_TAB = ""
 # (REQUIRED) Netlify site URL
 SITE_URL = "https://meek-quokka-cb6c81.netlify.app"
 
-#REDIRECT_HOME = "main"
+REDIRECT_HOME = "overview"
 
 ZOLA_VERSION = "0.15.2"
 # (Optional, default title) How to sort notes inside each section on the right sidebar ("date" or "title"). Subsections on side bar are sorted by title, the sort order cannot be changed.
@@ -39,7 +39,7 @@ SIDEBAR_COLLAPSED = ""
 # (Optional, default blank) Additional footer content.
 FOOTER = ""
 # (Optional, default main) Root section name.
-ROOT_SECTION_NAME = "main"
+ROOT_SECTION_NAME = "Home"
 # (Optional) visjs graph options. Can remove if desired.
 GRAPH_OPTIONS = """
         {
