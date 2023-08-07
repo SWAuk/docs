@@ -19,7 +19,7 @@ SITE_TITLE = "SWA Docs - plus plus"
 # (Optional) Site title in browser tab (leave blank to use SITE_TITLE)
 SITE_TITLE_TAB = ""
 # (REQUIRED) Netlify site URL
-SITE_URL = "https://meek-quokka-cb6c81.netlify.app"
+SITE_URL = "https://docs.swa.co.uk"
 
 REDIRECT_HOME = "overview"
 
