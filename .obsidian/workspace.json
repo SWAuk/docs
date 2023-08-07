@@ -11,24 +11,16 @@
             "id": "d6654db323d86513",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Installation.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "ca58f1b09f6cacf4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Creating Tickets.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -37,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "admin panel.md",
+                "file": "Development/onJAccessGetAuthorisedViewLevels custom event.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "admin panel.md",
+                "file": "Development/onJAccessGetAuthorisedViewLevels custom event.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "admin panel.md",
+                "file": "Development/onJAccessGetAuthorisedViewLevels custom event.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "admin panel.md"
+                "file": "Development/onJAccessGetAuthorisedViewLevels custom event.md"
               }
             }
           }
@@ -174,6 +166,11 @@
   },
   "active": "32b4ea73d5b4e2d5",
   "lastOpenFiles": [
+    "Development/Domains.md",
+    "Development/Creating Tickets.md",
+    "Development/Core Plugins.md",
+    "Development/Browser tests.md",
+    "home.md",
     "garden/digital-garden/node_modules/react-icons/lib/esm/index.d.ts",
     "garden/digital-garden/node_modules/react-icons/lib/cjs/index.d.ts",
     "garden/digital-garden/node_modules/react-icons/index.d.ts",
@@ -184,7 +181,6 @@
     "garden/digital-garden/node_modules/react-icons/lib/cjs/iconContext.d.ts",
     "garden/digital-garden/node_modules/react-icons/lib/esm/iconBase.d.ts",
     "garden/digital-garden/node_modules/react-icons/lib/cjs/iconBase.d.ts",
-    "garden/digital-garden/node_modules/react-icons/all.d.ts",
     "garden/digital-garden/node_modules/react-icons/README.md",
     "garden/digital-garden/node_modules/typescript/SECURITY.md",
     "garden/digital-garden/node_modules/core-js/CHANGELOG.md",
@@ -206,10 +202,6 @@
     "garden/digital-garden/node_modules/next/dist/compiled/react-refresh/README.md",
     "garden/digital-garden/node_modules/next/dist/compiled/regenerator-runtime/README.md",
     "garden/digital-garden/node_modules/next/dist/compiled/react-is/README.md",
-    "garden/digital-garden/node_modules/mdast-util-to-string/readme.md",
-    "garden/digital-garden/node_modules/remark-wiki-link/README.md",
-    "garden/digital-garden/node_modules/path/README.md",
-    "garden/digital-garden/node_modules/remark-frontmatter/readme.md",
     "garden/digital-garden/node_modules/highlight.js/scss/school-book.png",
     "garden/digital-garden/node_modules/highlight.js/scss/pojoaque.jpg",
     "garden/digital-garden/node_modules/highlight.js/scss/brown-papersq.png",
