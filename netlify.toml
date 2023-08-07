@@ -1,5 +1,5 @@
 [build]
-command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone https://github.com/ppeetteerrs/obsidian-zola.git __site && __site/run.sh"
+command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone https://github.com/orditeck/cheap-publish.git __site && __site/run.sh"
 publish = "public"
 
 [build.environment]
@@ -15,11 +15,13 @@ PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
 REPO_URL = "https://github.com/swauk/docs"	
 # (Optional) Site title in navbar
-SITE_TITLE = "Someone's Second 🧠"
+SITE_TITLE = "SWA Docs - plus plus"
 # (Optional) Site title in browser tab (leave blank to use SITE_TITLE)
 SITE_TITLE_TAB = ""
 # (REQUIRED) Netlify site URL
 SITE_URL = "https://meek-quokka-cb6c81.netlify.app"
+
+REDIRECT_HOME = "main"
 
 ZOLA_VERSION = "0.15.2"
 # (Optional, default title) How to sort notes inside each section on the right sidebar ("date" or "title"). Subsections on side bar are sorted by title, the sort order cannot be changed.
