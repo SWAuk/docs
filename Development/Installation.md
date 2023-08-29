@@ -1,12 +1,12 @@
 [[SWA Website Repository]]
-## Requirements (Tools)
+# Requirements (Tools)
 ### docker & docker-compose
 To make your life easy you can run many things related to development in docker.
 To do so you would need to install the following:
 * [Docker](https://docs.docker.com/install/)
 * [docker-compose](https://docs.docker.com/compose/install/)
 
-**Note:** It is possible to develop without docker.
+> **Note:** It is possible to develop without docker.
 ### composer
 In order to install the needed packages for development you'll need [composer](https://getcomposer.org/download/).
 Composer is a dependency manager and command runner for PHP.
@@ -14,45 +14,17 @@ Composer is a dependency manager and command runner for PHP.
 Use it to install the PHP libraries needed for testing, development and production.
 The easiest way to use `composer` to install the required libs is via the official [docker image](https://hub.docker.com/_/composer).
 
-
-## Installing the web server locally
-For each install step, we will run a composer command on the docker image. The templates are below. They will be referenced by \<template\>
-
-```sh
-
-docker run --env-file ./.env --rm -it -v $PWD:/app composer <command here>
-
-```
-If you are on windows using CMD that would be:
-```sh
-
-docker run --env-file ./.env --rm -it -v %CD%:/app composer <command here>
-
-```
-
-1. Copy and fill in [[..\.env]]
->**Note**: The password to decrypt the template is Taffys first name.
-3. \<template\> install
-4. Install p7zip, so that the template can be installed.
-	1. ```docker-compose exec joomla /bin/bash -c "apt-get update && apt-get -y install p7zip*```
-
-If you are having issues with installing dependency versions, use the following command:
-
-```sh
-docker run --env-file ./.env --rm -it -v %CD%:/app composer install --ignore-platform-reqs
-```
-
-If you are having issues with `post-update-cmd`, use the following command:
-
-```sh
-git clone -c core.autocrlf=false https://github.com/SWAuk/website.git
-```
-
-If everything installs correctly, run `docker compose up -d` 
-Other useful docker commands:
-* `docker-compose up` (-d to do detached)
-* `docker-compose ps` (to check it is there and running)
-* `docker-compose down` (--volume to also remove SQL data in docker volume)
+# Steps
+1. Clone [*SWAUK/website*](https://github.com/SWAuk/website)
+2. Copy `..\.env.example` to `..\.env` and fill it in.
+> The password to decrypt the template is Taffys first name.
+3. `composer install`
+> [[#Using Composer inside docker]]
+> [[#Composer Install Issues]]
+5. `docker compose up -d`
+> [[#Other useful docker commands]]
+6. Install p7zip, so that the template can be installed.
+	- ```docker-compose exec joomla /bin/bash -c "apt-get update && apt-get -y install p7zip*```
 
 The default things will be here (unless you changed them in your .env file)
 * Joomla front: http://localhost:5555
@@ -83,3 +55,37 @@ You will need to install these plugins to reach parity with the live site [[Core
 
 [[Testing]]
 [[GitHub Actions]]
+
+### Using Composer inside docker
+For each install step, we will run a composer command on the docker image. The templates are below. They will be referenced by \<template\>
+
+```sh
+
+docker run --env-file ./.env --rm -it -v $PWD:/app composer <command here>
+
+```
+If you are on windows using CMD that would be:
+```sh
+
+docker run --env-file ./.env --rm -it -v %CD%:/app composer <command here>
+
+```
+
+### Composer Install Issues
+
+If you are having issues with installing dependency versions, use the following command:
+
+```sh
+docker run --env-file ./.env --rm -it -v %CD%:/app composer install --ignore-platform-reqs
+```
+
+If you are having issues with `post-update-cmd`, use the following command:
+
+```sh
+git clone -c core.autocrlf=false https://github.com/SWAuk/website.git
+```
+
+### Other useful docker commands:
+* `docker-compose up` (-d to do detached)
+* `docker-compose ps` (to check it is there and running)
+* `docker-compose down` (--volume to also remove SQL data in docker volume)
